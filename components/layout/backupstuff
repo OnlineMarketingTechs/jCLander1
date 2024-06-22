@@ -1,0 +1,11 @@
+<div className="row">
+{/* this is just a test */}
+                    <div className="col-lg-12">
+                    <Suspense fallback={<p>Fetching Projects...</p>}>
+                    <Projects/>
+                    </Suspense>   
+                    </div>
+                    
+</div>
+
+style={{ backgroundImage: 'url(assets/images/background/background-section-why-choose-us-3.png)' , backgroundSize: 'cover'}}
